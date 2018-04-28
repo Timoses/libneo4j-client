@@ -1,7 +1,7 @@
 // Compile with:
 //  rdmd -L-lneo4j-client
 
-import deimos.neo4j.client;
+import neo4j.client;
 
 enum dbUri = "neo4j://neo4j:test@localhost:7687";
 

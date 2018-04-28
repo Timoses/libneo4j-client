@@ -1,4 +1,4 @@
-module deimos.neo4j.client;
+module neo4j.client;
 /* vi:set ts=4 sw=4 expandtab:
  *
  * @configure_input@
