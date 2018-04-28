@@ -21,6 +21,12 @@ module deimos.neo4j.client;
  * @file neo4j-client.h
  */
 
+import core.stdc.stdarg;
+import core.stdc.stdio;
+import core.sys.posix.sys.uio : iovec;
+
+alias ssize_t = ptrdiff_t;
+
 import core.stdc.config;
 import core.stdc.stdint;
 
