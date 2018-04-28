@@ -1,5 +1,7 @@
-// Compile with:
+// Run with:
 //  rdmd -L-lneo4j-client
+// or
+//  dub test
 
 import neo4j.client;
 

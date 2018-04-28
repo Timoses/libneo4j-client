@@ -1,0 +1,14 @@
+.dub
+docs.json
+__dummy.html
+docs/
+libneo4j-client.so
+libneo4j-client.dylib
+libneo4j-client.dll
+libneo4j-client.a
+libneo4j-client.lib
+libneo4j-client-test-*
+*.exe
+*.o
+*.obj
+*.lst

@@ -1,0 +1,24 @@
+{
+	"name": "libneo4j-client",
+	"description": "D bindings for libneo4j-client",
+    "homepage": "https://neo4j-client.net/",
+	"license": "Apache License 2.0",
+
+    "sourcePaths": ["."],
+    "importPaths": ["."],
+    "excludedSourceFiles": ["example.d"],
+    "libs": ["neo4j-client"],
+
+    "configurations": [
+        {
+            "name": "library",
+            "targetType": "sourceLibrary"
+        },
+        {
+            "name": "unittest",
+            "targetType": "executable",
+            "sourceFiles": ["example.d"],
+            "targetName": "libneo4j-client-example"
+        }
+    ]
+}
